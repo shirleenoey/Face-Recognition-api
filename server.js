@@ -13,9 +13,9 @@ const db = knex({
   connection: {
     host : '127.0.0.1',
     port : 5432, //database port
-    user : 'postgres',
-    password : 'OTTIElee7',
-    database : 'FaceRec'
+    user : 'YOUR_USERNAME',
+    password : 'YOUR_PASSWORD',
+    database : 'YOUR_DATABASE_NAME'
   }
 });
 
